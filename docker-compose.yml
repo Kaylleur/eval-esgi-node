@@ -14,7 +14,7 @@ services:
     image: mongo-express:latest
     container_name: local-mongo-express
     environment:
-    - ME_CONFIG_MONGODB_SERVER=mongo
+    - ME_CONFIG_MONGODB_SERVER=mongodb
     ports:
     - "8081:8081"
 
